@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    color: white;
+}
+
+#left-side {
+    width: 40vw;
+    height: 100vh;
+    background-image: url(./img/cheng-feng-gR3oLVM0aqM-unsplash.jpg);
+    background-size: cover;
+}
+
+#logo-zone-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.15);
+    margin-top: 30%;
+}
+
+#logo {
+    width: 300px;
+    height: auto;
