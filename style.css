@@ -21,3 +21,79 @@ body {
 #logo {
     width: 300px;
     height: auto;
+}
+
+#right-side {
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+#right-side-top-container {
+    height: 35vh;
+    padding: 0 0 70px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+#hero-text, #hero-subtext {
+    font-size: 1.75rem;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#hero-text {
+    width: 70%;
+}
+
+#hero-subtext {
+    animation: flickerAnimation 0.75s infinite;
+}
+
+@keyframes flickerAnimation {
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+}
+
+#right-side-middle-container {
+    height: 30vh;
+    background-color: rgb(37, 37, 37);
+}
+
+#right-side-bottom-container {
+    height: 35vh;
+    padding: 30px 0 0 50px;
+}
+
+#submit-button {
+    text-transform: uppercase;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #04DAF6;
+    background-color: black;
+    border: 1px solid #FF003C;
+    border-radius: 0.75rem 0.25rem 0.75rem 0.25rem;
+    padding: 10px 30px;
+    transition: .2s ease-in-out 0s;
+}
+
+#submit-button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#log-in-paragraph {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+#log-in {
+    text-decoration: none;
+    color: #04DAF6;
+}
